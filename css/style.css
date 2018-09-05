@@ -1,0 +1,113 @@
+/**
+Import the steps stylesheets
+**/
+/* line 7, ../../src/sass/sass/style.scss */
+.daedelus-container {
+  z-index: 999999;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+/* line 14, ../../src/sass/sass/style.scss */
+.daedelus-container .menu-icon {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding: 3px;
+  margin-bottom: 10px;
+  background-color: #cccccc;
+  border-radius: 100%;
+  display: inline-block;
+}
+/* line 26, ../../src/sass/sass/style.scss */
+.daedelus-container .daedelus-menu-icon .menu-button.fa, .daedelus-container .daedelus-menu-icon .menu-button.far {
+  font-size: 2em;
+  color: green;
+  background-color: #eeeeee;
+  padding: 6px;
+  border-radius: 100%;
+  box-shadow: grey 0px 0px 9px 3px;
+  margin: 5px;
+  cursor: pointer;
+}
+/* line 38, ../../src/sass/sass/style.scss */
+.daedelus-container.open {
+  background-color: #FFFFFF;
+  border-top-left-radius: 10px;
+  padding-left: 15px;
+  padding-right: 10px;
+  border: 1px solid #eeeeee;
+  border-right: none;
+  border-bottom: none;
+  box-shadow: grey 0px 0px 9px 3px;
+}
+/* line 49, ../../src/sass/sass/style.scss */
+.daedelus-container.open .daedelus-menu-icon .menu-button.fa, .daedelus-container.open .daedelus-menu-icon .menu-button.far {
+  font-size: 1.5em;
+  background-color: #FFFFFF;
+  box-shadow: none;
+}
+/* line 58, ../../src/sass/sass/style.scss */
+.daedelus-container .daedelus-menu-options {
+  height: 250px;
+}
+/* line 60, ../../src/sass/sass/style.scss */
+.daedelus-container .daedelus-menu-options p {
+  cursor: pointer;
+}
+/* line 64, ../../src/sass/sass/style.scss */
+.daedelus-container .daedelus-menu-options ul li {
+  display: block;
+}
+
+/* line 70, ../../src/sass/sass/style.scss */
+.edit-form-container {
+  padding: 25px;
+  min-width: 400px;
+  width: 50%;
+  min-height: 350px;
+  position: fixed;
+  top: 25%;
+  border: 2px inset #CCCCCC;
+  border-radius: 10px;
+  z-index: 9999;
+  left: 25%;
+  overflow: auto;
+  background-color: rgba(250, 250, 250, 0.8);
+}
+/* line 83, ../../src/sass/sass/style.scss */
+.edit-form-container button {
+  background: red;
+}
+/* line 86, ../../src/sass/sass/style.scss */
+.edit-form-container .edit-submit {
+  float: right;
+  margin-top: 25px;
+  background: green;
+}
+/* line 91, ../../src/sass/sass/style.scss */
+.edit-form-container input, .edit-form-container textarea, .edit-form-container button {
+  border: 1px solid black !important;
+}
+
+/* line 96, ../../src/sass/sass/style.scss */
+#canvas {
+  width: 2000px;
+  height: 2000px;
+  border: 10px solid transparent;
+}
+
+/* line 101, ../../src/sass/sass/style.scss */
+.rectangle {
+  border: 1px solid #FF0000;
+  position: absolute;
+}
+
+/* line 106, ../../src/sass/sass/style.scss */
+#current_screenshot {
+  position: fixed;
+  border: 1px solid orange;
+  z-index: 99999;
+  background: transparent;
+}
